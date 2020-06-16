@@ -247,8 +247,8 @@ input.switch-toggle-round + label:after {
 }
 
 input.switch-toggle-round:checked + label:before {
-	background-color: #1ABC9C;
-	background-color: var(--themecolor, #1ABC9C);
+	background-color: #3383f5;
+	background-color: var(--themecolor, #3383f5);
 }
 input.switch-toggle-round:checked + label:after { margin-left: 30px; }
 
@@ -376,12 +376,12 @@ input.switch-toggle-flat + label:after {
 }
 
 input.switch-toggle-flat:checked + label {
-	background-color: var(--themecolor, #1ABC9C);
+	background-color: var(--themecolor, #3383f5);
 }
 
 input.switch-toggle-flat:checked + label:after {
 	margin-left: 30px;
-	background-color: var(--themecolor, #1ABC9C);
+	background-color: var(--themecolor, #3383f5);
 }
 
 
