@@ -9,10 +9,14 @@
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Mukta+Vaani:300,400,500,600,700|Open+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap-rtl.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="style-rtl.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark-rtl.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons-rtl.css" type="text/css" />
 
 	<!-- Bootstrap Select CSS -->
 	<link rel="stylesheet" href="css/components/bs-select.css" type="text/css" />
@@ -46,7 +50,7 @@
 
 </head>
 
-<body class="stretched side-push-panel" data-loader-html="<div><img src='demos/car/images/page-loader.gif' alt='Loader'></div>">
+<body class="stretched side-push-panel rtl" data-loader-html="<div><img src='demos/car/images/page-loader.gif' alt='Loader'></div>">
 
 	<!-- Side Panel Overlay -->
 	<div class="body-overlay"></div>
@@ -117,47 +121,34 @@
 						============================================= -->
 						<nav class="primary-menu with-arrows">
 							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="index.html"><div>Home</div></a></li>
+								<li class="menu-item current"><a class="menu-link" href="index.html"><div>ראשי</div></a></li>
 								<!-- Mega Menu -->
-								<li class="menu-item mega-menu"><a class="menu-link" href="demo-car-single.html"><div>Models</div></a>
-									<div class="mega-menu-content mega-menu-style-2">
-										<div class="container">
-											<div class="row">
-												<ul class="sub-menu-container mega-menu-column col-12">
-													<li class="menu-item">
-														<div class="widget text-center">
-
-															<h3 class="mb-0">Featured Models</h3>
-															<a href="#" class="button button-small button-rounded button-border button-dark button-black font-primary" style="margin: 10px 0 40px">Show all Cars</a>
-
-															<!-- Mega Menu Cars Carousel -->
-															<div class="owl-carousel image-carousel carousel-widget" data-margin="20" data-nav="false" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="4" data-items-lg="6" data-items-xl="6">
-																<div class="oc-item center"><a href="demo-car-single.html"><img src="demos/car/images/mega-menu/1.png" alt="Car">BMW 1 Series ActiveE</a></div>
-																<div class="oc-item center"><a href="demo-car-single.html"><img src="demos/car/images/mega-menu/4.png" alt="Car">Mercedes-Benz S-Class</a></div>
-																<div class="oc-item center"><a href="demo-car-single.html"><img src="demos/car/images/mega-menu/5.png" alt="Car">Gran Turismo</a></div>
-																<div class="oc-item center"><a href="demo-car-single.html"><img src="demos/car/images/mega-menu/6.png" alt="Car">Mclaren 675LT SPIDER</a></div>
-																<div class="oc-item center"><a href="demo-car-single.html"><img src="demos/car/images/mega-menu/7.png" alt="Car">Honda City</a></div>
-																<div class="oc-item center"><a href="demo-car-single.html"><img src="demos/car/images/mega-menu/8.png" alt="Car">Toyota Qualis</a></div>
-																<div class="oc-item center"><a href="demo-car-single.html"><img src="demos/car/images/mega-menu/9.png" alt="Car">Honda WR-V</a></div>
-																<div class="oc-item center"><a href="demo-car-single.html"><img src="demos/car/images/mega-menu/10.png" alt="Car">Suzuki Breeza</a></div>
-																<div class="oc-item center"><a href="demo-car-single.html"><img src="demos/car/images/mega-menu/2.png" alt="Car">Chevrolet Spark</a></div>
-																<div class="oc-item center"><a href="demo-car-single.html"><img src="demos/car/images/mega-menu/3.png" alt="Car">Honda JaZZ</a></div>
-
-															</div>
-														</div>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="demo-car-listing.html"><div>Car Listing</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-car-dealers.html"><div>Dealers</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-car-accessories.html"><div>Accessories</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-car-interiors.html"><div>Interiors</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-car-faqs.html"><div>FAQs</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-car-blog.html"><div>Blog</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-car-contact.html"><div>Contacts</div></a></li>
+								<li class="menu-item sub-menu">
+									<a class="menu-link"><div>חנות<i class="icon-angle-down"></i></div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="demo-car-listing.html"><div>מלבני</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="demo-car-listing.html"><div>פינתי</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="demo-car-listing.html"><div>חצי פינה</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="demo-car-listing.html"><div>עגול</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="demo-car-listing.html"><div>מיוחד</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="demo-car-listing.html"><div>אגניות</div></a>
+										</li>
+									</ul>
+								<button class="sub-menu-trigger icon-chevron-right"></button></li>
+								<li class="menu-item"><a class="menu-link" href="demo-car-single.html"><div>קטלוג 2020</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-car-accessories.html"><div>אביזרים</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-car-contact.html"><div>יצירת קשר</div></a></li>
 							</ul>
 						</nav><!-- #primary-menu end -->
 
@@ -171,11 +162,10 @@
 		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('demos/car/images/hero-slider/4.jpg'); background-size: cover; padding: 120px 0;" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;">
 
 			<div class="container clearfix">
-				<h1>Car Listing</h1>
+				<h1>אמבטיות וגקוזי</h1>
 				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="#">Home</a></li>
-					<li class="breadcrumb-item"><a href="#">Cars</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Listing</li>
+					<li class="breadcrumb-item"><a href="#">ראשי</a></li>
+					<li class="breadcrumb-item active"><a href="#">אמבטיות וגקוזי</a></li>
 				</ol>
 			</div>
 
@@ -190,95 +180,73 @@
 					<div class="card p-4 shadow" style="top: -60px;">
 						<form action="#" method="post" class="mb-0">
 							<div class="row clearfix">
-								<div class="col-md-2 col-sm-12">
-									<label for="" class="d-block">Type</label>
-									<input class="bt-switch" type="checkbox" checked data-on-text="New" data-off-text="Used" data-on-color="themecolor" data-off-color="themecolor">
-								</div>
-								<div class="col-md-4 col-sm-6 col-12 mt-4 mt-md-0">
-									<label for="">All Brands</label>
-									<select class="selectpicker form-control customjs" title="Select Brand"  data-size="10" data-live-search="true" multiple data-live-search="true" style="width:100%;">
-										<optgroup label="All Brands">
-											<option value="Audi">Audi</option>
-											<option value="BMW">BMW</option>
-											<option value="Ferrari">Ferrari</option>
-											<option value="Ford">Ford</option>
-											<option value="Honda">Honda</option>
-											<option value="Mercedes-Benz">Mercedes-Benz</option>
-											<option value="Manza">Manza</option>
-											<option value="Porsche">Porsche</option>
-											<option value="Tayota">Tayota</option>
+								<div class="col-md-4 col-sm-6 col-12 mt-4 mt-md-0" >
+									<label for="">סוג</label>
+									<select class="selectpicker form-control customjs" title="בחר סוג" data-size="10" data-live-search="true" multiple data-live-search="true" style="width:100%;">
+										<optgroup label="כל הסוגים">
+											<option value="Audi">מלבני</option>
+											<option value="BMW">עגול</option>
+											<option value="Ferrari">פינתי</option>
+											<option value="Ford">חצי פינה</option>
+											<option value="Honda">מיוחד</option>
+											<option value="Mercedes-Benz">ישיבה</option>
 										</optgroup>
 									</select>
 								</div>
 								<div class="col-md-4 col-sm-6 col-12 mt-4 mt-md-0">
-									<label for="">Select Model</label>
-									<select class="selectpicker customjs form-control" data-size="10" data-live-search="true" title="Select Model" style="width:100%; line-height: 30px;">
-										<optgroup label="AUDI">
-											<option value="R8">Audi R8</option>
-											<option value="TT">Audi TT</option>
-											<option value="S5">Audi S5</option>
-											<option value="A5">Audi A5</option>
-											<option value="TTS">Audi TTS</option>
-											<option value="RS5">Audi RS 5</option>
+									<label for="">גודל</label>
+									<select class="selectpicker customjs form-control" data-size="10" data-live-search="true" title="בחר גודל" style="width:100%; line-height: 30px;">
+										<optgroup label="מלבני">
+											<option value="105X70">105X70</option>
+											<option value="110X70">110X70</option>
+											<option value="120X70">120X70</option>
+											<option value="130X70">130X70</option>
+											<option value="140X70">140X70</option>
+											<option value="150X70">150X70</option>
+											<option value="160X70">160X70</option>
+											<option value="170X70">170X70</option>
+											<option value="170X75">170X75</option>
+											<option value="180X70">180X70</option>
+											<option value="180X80">180X80</option>
+											<option value="180X90">180X90</option>
+											<option value="190X80">190X80</option>
+											<option value="190X90">190X90</option>
+											<option value="200X90">200X90</option>
 										</optgroup>
-										<optgroup label="BMW All Series">
-											<option value="1-Series">BMW 1 Series 5-Door</option>
-											<option value="Series-ActiveE">BMW 1 Series ActiveE</option>
-											<option value="3-Series-Sedan">BMW 3 Series Sedan</option>
-											<option value="ActiveHybrid-3">BMW ActiveHybrid 3</option>
-											<option value="5-Series-Sedan">BMW 5 Series Sedan</option>
-											<option value="ActiveHybrid-5">BMW ActiveHybrid 5</option>
-											<option value="7-Series">BMW 7 Series</option>
-											<option value="ActiveHybrid-7">BMW ActiveHybrid 7</option>
-											<option value="M3-Sedan">BMW M3 Sedan</option>
-											<option value="M5-Sedan">BMW M5 Sedan</option>
-											<option value="3-Series-Turismo">BMW 3 Series Gran Turismo</option>
-											<option value="5=Series-Turismo">BMW 5 Series Gran Turismo</option>
+										<optgroup label="עגול">
+											<option value="150X150">150X150</option>
+											<option value="164X164">164X164</option>
+											<option value="180X180">180X180</option>
+											<option value="200X200">200X200</option>
 										</optgroup>
-										<optgroup label="HONDA">
-											<option value="Fit">Honda Fit</option>
-											<option value="City">Honda City</option>
-											<option value="Civic">Honda Civic</option>
-											<option value="Fit-EV1">Honda Fit EV1</option>
-											<option value="Accord">Honda Accord</option>
-											<option value="Crosstour">Honda Crosstour</option>
-											<option value="FCX-Clarity">Honda FCX Clarity</option>
-											<option value="Civic-Hybrid">Honda Civic Hybrid</option>
-											<option value="Accord-Hybrid">Honda Accord Hybrid</option>
-											<option value="Accord-Plug-In">Honda Accord Plug-In</option>
+										<optgroup label="חצי פינה">
+											<option value="160X120">160X120</option>
+											<option value="175X120">175X120</option>
+											<option value="178X105">178X105</option>
+											<option value="Fit">175X120</option>
+											<option value="Fit">175X120</option>
 										</optgroup>
-										<optgroup label="MERCEDES-BENZ">
-											<option value="S-Class">2021 Mercedes-Benz S-Class Sedan</option>
-											<option value="C-Class">2021 Mercedes-Benz C-Class Sedan</option>
-											<option value="E-Class">2021 Mercedes-Benz E-Class Sedan</option>
-											<option value="E-Class-Hybrid">2021 Mercedes-Benz E-Class Hybrid</option>
-											<option value="Maybach-S600">2021 Mercedes-Benz Maybach S600</option>
-											<option value="B-Class-Electric-Drive">2021 Mercedes-Benz B-Class Electric Drive</option>
+										<optgroup label="פינתי">
+											<option value="110X110">110X110</option>
+											<option value="120X120">120X120</option>
+											<option value="130X130">130X130</option>
+											<option value="140X140">140X140</option>
+											<option value="145X145">145X145</option>
+											<option value="150X150">150X150</option>
 										</optgroup>
-										<optgroup label="Ferrari">
-											<option value="Ferrari Daytona">Ferrari Daytona</option>
-											<option value="Ferrari 250 GTO">Ferrari 250 GTO</option>
-											<option value="Ferrari 275">Ferrari 275</option>
-											<option value="Ferrari 599 GTB Fiorano">Ferrari 599 GTB Fiorano</option>
-											<option value="Ferrari F430">Ferrari F430</option>
-											<option value="Ferrari 250">Ferrari 250</option>
+										<optgroup label="פריסטנד">
+											<option value="200X80">200X80</option>
+											<option value="150X150">150X150</option>
+											<option value="170X80">170X80</option>
 										</optgroup>
-										<optgroup label="Porsche">
-											<option value="Porsche Carrera GT">Porsche Carrera GT</option>
-											<option value="Porsche Boxster">Porsche Boxster</option>
-											<option value="Porsche 911 classic">Porsche 911 classic</option>
-											<option value="Porsche 911">Porsche 911</option>
-											<option value="Porsche Cayman">Porsche Cayman</option>
-											<option value="Porsche Panamera">Porsche Panamera</option>
-											<option value="Porsche 959">Porsche 959</option>
-											<option value="Porsche 356">Porsche 356</option>
-											<option value="Porsche Cayenne">Porsche Cayenne</option>
-											<option value="Porsche 997">Porsche 997</option>
+										<optgroup label="אגניות">
+											<option value="90X90">90X90</option>
+											<option value="120X90">120X90</option>
 										</optgroup>
 									</select>
 								</div>
 								<div class="col-md-2 col-sm-6 col-6">
-									<button class="button button-3d button-rounded btn-block ml-0" style="margin-top: 29px;">Search</button>
+									<button class="button button-3d button-rounded btn-block ml-0" style="margin-top: 29px;">חיפוש</button>
 								</div>
 							</div>
 						</form>
@@ -292,178 +260,20 @@
 						<!-- Grid Filter
 						============================================= -->
 						<ul class="grid-filter style-2 w-100" data-container="#portfolio">
-							<li><a href="#" data-filter=".cf-cuv"><i class="icon-car-cuv"></i><span>Cuv</span></a></li>
-							<li><a href="#" data-filter=".cf-sedan"><i class="icon-car-sedan"></i><span>Sedan</span></a></li>
-							<li><a href="#" data-filter=".cf-supercar"><i class="icon-car-supercar"></i><span>Supercar</span></a></li>
-							<li><a href="#" data-filter=".cf-hatchback"><i class="icon-car-hatchback"></i><span>Hatchback</span></a></li>
-							<li><a href="#" data-filter=".cf-cabriolet"><i class="icon-car-cabriolet"></i><span>Cabriolet</span></a></li>
+							<li><a href="#" data-filter=".מלבני"><i class="icon-bath"></i><span>מלבני</span></a></li>
+							<li><a href="#" data-filter=".חצי_פינה"><i class="icon-bath"></i><span>חצי פינה</span></a></li>
+							<li><a href="#" data-filter=".פינתי"><i class="icon-bath"></i><span>פינתי</span></a></li>
+							<li><a href="#" data-filter=".עגול"><i class="icon-bath"></i><span>עגול</span></a></li>
+							<li><a href="#" data-filter=".מיוחד"><i class="icon-bath"></i><span>מיוחד</span></a></li>
+							<li><a href="#" data-filter=".אגניות"><i class="icon-bath"></i><span>אגניות</span></a></li>
 							<!-- Show All Button -->
-							<li class="activeFilter ml-auto"><a class="button button-small button-rounded button-reset" href="#" data-filter="*">Show All</a></li>
+							<li class="activeFilter ml-auto"><a class="button button-small button-rounded button-reset" href="#" data-filter="*">הצג הכל</a></li>
 						</ul><!-- .grid-filter end -->
 
 						<!-- Portfolio Items
 						============================================= -->
 						<div id="portfolio" class="portfolio row gutter-30 grid-container" data-layout="fitRows">
 
-							<!-- Car 1 -->
-							<article class="portfolio-item col-12 col-sm-6 col-md-4 cf-sedan">
-								<div class="grid-inner">
-									<div class="portfolio-image">
-										<a href="#">
-											<img src="demos/car/images/filter-cars/1.jpg" alt="Open Imagination">
-											<div class="filter-p-pricing">
-												<span class="p-price font-weight-bold ls1">$32,568</span>
-												<span class="p-price-msrp">MSRP : <strong>$35,698</strong></span>
-											</div>
-										</a>
-									</div>
-									<div class="portfolio-desc">
-										<h3><a href="#">Ford Mustang - White</a></h3>
-										<span>Dramatically synthesize parallel applications vis-a-vis revolutionary e-tailers. Monotonectally incubate cooperative partnerships.</span>
-									</div>
-									<div class="row no-gutters car-p-features font-primary clearfix">
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-meter"></i><span> 20000</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-door"></i><span> 5 Seater</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-fuel2"></i><span> 20kmpl</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-signal"></i><span> Automatic</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-wheel"></i><span> 15 Inch</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-care"></i><span> 2021</span></div>
-									</div>
-								</div>
-							</article>
-
-							<!-- Car 2 -->
-							<article class="portfolio-item col-12 col-sm-6 col-md-4 cf-suv">
-								<div class="grid-inner">
-									<div class="portfolio-image">
-										<a href="#">
-											<img src="demos/car/images/filter-cars/2.jpg" alt="Open Imagination">
-											<div class="filter-p-pricing">
-												<span class="p-price font-weight-bold ls1">$32,568</span>
-												<span class="p-price-msrp">MSRP : <strong>$35,698</strong></span>
-											</div>
-										</a>
-									</div>
-									<div class="portfolio-desc">
-										<h3><a href="#">Chevrolet Brown Traverse</a></h3>
-										<span>Enthusiastically incubate turnkey technologies for exceptional materials. Seamlessly implement emerging scenarios.</span>
-									</div>
-									<div class="row no-gutters car-p-features font-primary clearfix">
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-meter"></i><span> 0-50 mph</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-door"></i><span> 7 Seater</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-paint"></i><span> Brown</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-signal"></i><span> Manual</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-wheel"></i><span> 20-Inch</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-care"></i><span> 2021</span></div>
-									</div>
-								</div>
-							</article>
-
-							<!-- Car 3 -->
-							<article class="portfolio-item col-12 col-sm-6 col-md-4 cf-cabriolet">
-								<div class="grid-inner">
-									<div class="portfolio-image">
-										<a href="#">
-											<img src="demos/car/images/filter-cars/3.jpg" alt="Open Imagination">
-											<div class="filter-p-pricing">
-												<span class="p-price font-weight-bold ls1">$62,300</span>
-												<span class="p-price-msrp">MSRP : <strong>$62,700</strong></span>
-											</div>
-										</a>
-									</div>
-									<div class="portfolio-desc">
-										<h3><a href="#">Audi 2021 S5 Cabriolet</a></h3>
-										<span>Competently evolve intuitive synergy without corporate human capital. Monotonectally.</span>
-									</div>
-									<div class="row no-gutters car-p-features font-primary clearfix">
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-meter"></i><span> 0-60 mph</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-bearing"></i><span> Six-cylinder</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-fuel2"></i><span> 23 mpg8</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-signal"></i><span> Automatic</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-care"></i><span> 2021</span></div>
-									</div>
-								</div>
-							</article>
-
-							<!-- Car 4 -->
-							<article class="portfolio-item col-12 col-sm-6 col-md-4 cf-cuv">
-								<div class="grid-inner">
-									<div class="portfolio-image">
-										<a href="#">
-											<img src="demos/car/images/filter-cars/4.jpg" alt="Open Imagination">
-											<div class="filter-p-pricing">
-												<span class="p-price font-weight-bold ls1">$32,568</span>
-												<span class="p-price-msrp">MSRP : <strong>$35,698</strong></span>
-											</div>
-										</a>
-									</div>
-									<div class="portfolio-desc">
-										<h3><a href="#">BMW 3 Series, ABS</a></h3>
-										<span>Energistically engineer user friendly synergy vis-a-vis enabled channels. Rapidiously utilize value-added. Laudantium debitis perferendis obcaecati.</span>
-									</div>
-									<div class="row no-gutters car-p-features font-primary clearfix">
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-meter"></i><span> 0-80 mph</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-fuel2"></i><span> Hybrid</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-signal"></i><span> Automatic</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-stearing"></i><span> 3000</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-care"></i><span> 2021</span></div>
-									</div>
-								</div>
-							</article>
-
-							<!-- Car 5 -->
-							<article class="portfolio-item col-12 col-sm-6 col-md-4 cf-supercar">
-								<div class="grid-inner">
-									<div class="portfolio-image">
-										<a href="#">
-											<img src="demos/car/images/filter-cars/5.jpg" alt="Open Imagination">
-											<div class="filter-p-pricing">
-												<span class="p-price font-weight-bold ls1">$32,568</span>
-												<span class="p-price-msrp">MSRP : <strong>$35,698</strong></span>
-											</div>
-										</a>
-									</div>
-									<div class="portfolio-desc">
-										<h3><a href="#">2021 LEXUS IS 200T FSPORT</a></h3>
-										<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium debitis unde laboriosam perferendis obcaecati.</span>
-									</div>
-									<div class="row no-gutters car-p-features font-primary clearfix">
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-cog3"></i><span> 30,000 mi</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-paint"></i><span> Metalic</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-fuel"></i><span> 11 kmpl</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-signal"></i><span> Automatic</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-wheel"></i><span> 18 Inch</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-care"></i><span> 2021</span></div>
-									</div>
-								</div>
-							</article>
-
-							<!-- Car 6 -->
-							<article class="portfolio-item col-12 col-sm-6 col-md-4 cf-hatchback">
-								<div class="grid-inner">
-									<div class="portfolio-image">
-										<a href="#">
-											<img src="demos/car/images/filter-cars/6.jpg" alt="Open Imagination">
-											<div class="filter-p-pricing">
-												<span class="p-price font-weight-bold ls1">$32,568</span>
-												<span class="p-price-msrp">MSRP : <strong>$35,698</strong></span>
-											</div>
-										</a>
-									</div>
-									<div class="portfolio-desc">
-										<h3><a href="#">Chevrolet T430 Hatchback</a></h3>
-										<span>Appropriately exploit strategic niche markets rather than optimal products. Enthusiastically negotiate perferendis the art methods of empowermen.</span>
-									</div>
-									<div class="row no-gutters car-p-features font-primary clearfix">
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-meter"></i><span> 20000</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-door"></i><span> 5 Seater</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-fuel2"></i><span> 20kmpl</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-signal"></i><span> Automatic</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-wheel"></i><span> 15 Inch</span></div>
-										<div class="col-lg-4 col-6 p-0"><i class="icon-car-care"></i><span> 2021</span></div>
-									</div>
-								</div>
-							</article>
 
 						</div>
 					</div>
@@ -471,8 +281,8 @@
 
 				<div class="section center nbottomomargin mt-3 footer-stick" style="padding:80px 0 ">
 					<div class="container clearfix">
-						<h3 class="font-primary">Special Offers on Villa Long Term Rentals &amp; Lease Agreements</h3>
-						<a href="contact.html" class="button button-color button-large button-rounded">Contact Now</a>
+						<h3 class="font-primary">מבצעים מיוחדים להזמנות וסוחרים גדולים</h3>
+						<a href="contact.html" class="button button-color button-large button-rounded">יצירת קשר</a>
 					</div>
 				</div>
 			</div>
@@ -577,6 +387,311 @@
 	<script>
 
 		jQuery(".bt-switch").bootstrapSwitch();
+
+		let tubs = [
+		{
+			name: 'ca_30.1',
+			size: '200X100',
+			type: 'מיוחד'
+		},
+		{
+			name: 'ca_31.1',
+			size: '180X140',
+			type: 'מיוחד'
+		},
+		{
+			name: 'ca_32.1',
+			size: '190X160',
+			type: 'מיוחד'
+		},
+		{
+			name: 'ca_33.1',
+			size: '180x120',
+			type: 'מיוחד'
+		},
+		{
+			name: 'ca_34.1',
+			size: '175x120',
+			type: 'חצי_פינה'
+		},
+		{
+			name: 'ca_6.1',
+			size: '120X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_7.1',
+			size: '120X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_8.1',
+			size: '130X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_9.1',
+			size: '130X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_10.1',
+			size: '140X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_11.1',
+			size: '140X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_12.1',
+			size: '150X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_13.1',
+			size: '150X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_0',
+			size: '105X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_14.1',
+			size: '150X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_15.1',
+			size: '160X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_16.1',
+			size: '160X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_17.1',
+			size: '160X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_18.1',
+			size: '160X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_19.1',
+			size: '170X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_20.1',
+			size: '170X70',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_22.1',
+			size: '170X80',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_23.1',
+			size: '160X80',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_23.1',
+			size: '170X75',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_24.1',
+			size: '170X75',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_25.1',
+			size: '180X80',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_26.1',
+			size: '180X80',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_27.1',
+			size: '190X80',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_28.1',
+			size: '180X90',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_29.1',
+			size: '190X90',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_35.1',
+			size: '175x120',
+			type: 'חצי_פינה'
+		},
+		{
+			name: 'ca_36.1',
+			size: '160x120',
+			type: 'חצי_פינה'
+		},
+		{
+			name: 'ca_37.1',
+			size: '160x120',
+			type: 'חצי_פינה'
+		},
+		{
+			name: 'ca_41.1',
+			size: '175X105',
+			type: 'חצי_פינה'
+		},
+		{
+			name: 'ca_42.1',
+			size: '180x90X120',
+			type: 'מלבני'
+		},
+		{
+			name: 'ca_43.1',
+			size: '110X110',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_44.1',
+			size: '120X120',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_46.1',
+			size: '125x125',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_47.1',
+			size: '130X130',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_50.1',
+			size: '135X135',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_51.1',
+			size: '140X140',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_52.1',
+			size: '145X145',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_53.1',
+			size: '150X150',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_55.1',
+			size: '150X150',
+			type: 'עגול'
+		},
+		{
+			name: 'ca_56.1',
+			size: '150X150',
+			type: 'עגול'
+		},
+		{
+			name: 'ca_57.1',
+			size: '180X180',
+			type: 'עגול'
+		},
+		{
+			name: 'ca_58.1',
+			size: '200X200',
+			type: 'עגול'
+		},
+		{
+			name: 'ca_59.1',
+			size: '150X100',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_62.1',
+			size: '150X100',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_64.1',
+			size: '160X103',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_65.1',
+			size: '170X110',
+			type: 'פינתי'
+		},
+		{
+			name: 'ca_66.1',
+			size: '170X130',
+			type: 'מיוחד'
+		},
+		{
+			name: 'ca_67.1',
+			size: '200X80',
+			type: 'פריסטנד'
+		},
+		{
+			name: 'ca_68.1',
+			size: '150X150',
+			type: 'פריסטנד'
+		},
+		{
+			name: 'ca_69.1',
+			size: '170x80',
+			type: 'פריסטנד'
+		},
+		{
+			name: 'ca_70.1',
+			size: '170x80',
+			type: 'פריסטנד'
+		},
+		{
+			name: 'ca_77',
+			size: '200X150',
+			type: 'מיוחד'
+		},
+		{
+			name: 'ca_81.1',
+			size: '90X90',
+			type: 'אגניות'
+		},
+		{
+			name: 'ca_81.2',
+			size: '120X90',
+			type: 'אגניות'
+		},
+		];
+
+		for(let i=0; i<tubs.length; i++){
+			if(i<10)
+				$('#portfolio').append(' <article class="portfolio-item col-12 col-sm-6 col-md-4 '+ tubs[i].type +'"> <div class="grid-inner"> <div class="portfolio-image"> <a href="#"> <img src="images/bathtubs/'+tubs[i].name+'.webp" alt="Open Imagination"> <div class="filter-p-pricing"> <span class="p-price font-weight-bold ls1">דגם 10'+ (i+1) + '</span> </div> </a> </div> <div class="portfolio-desc"> <h3><a href="#">'+ tubs[i].size +'</a></h3> <span>'+ tubs[i].type +'</span> </div> </div> </article>');
+			else
+			$('#portfolio').append(' <article class="portfolio-item col-12 col-sm-6 col-md-4 '+ tubs[i].type +'"> <div class="grid-inner"> <div class="portfolio-image"> <a href="#"> <img src="images/bathtubs/'+tubs[i].name+'.webp" alt="Open Imagination"> <div class="filter-p-pricing"> <span class="p-price font-weight-bold ls1">דגם 1'+ (i+1) + '</span> </div> </a> </div> <div class="portfolio-desc"> <h3><a href="#">'+ tubs[i].size +'</a></h3> <span>'+ tubs[i].type +'</span> </div> </div> </article>');
+		}
 
 	</script>
 
